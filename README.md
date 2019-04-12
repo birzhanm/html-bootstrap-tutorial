@@ -3,4 +3,5 @@ This tutorial teaches the basics of HTML5 and Bootstrap4 through a series of pro
 <ul>
 <li>Lesson 1: Introduction to HTML</li>
 <li>Lesson 2: Introduction to Bootstrap</li>
+<li>Lesson 3: Working with Media, Tables and Forms</li>
 </ul>
