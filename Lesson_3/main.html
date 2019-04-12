@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Lesson 3: HTML Images, Audio, Tables and Forms</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+<div class="container-fluid p-0">
+  <div class="row bg-success p-0">
+    <div class="col">
+      <h3 class="text-center">Images</h3>
+    </div>
+  </div>
+  <div class="row bg-success p-0">
+    <div class="col-6 p-4">
+      <p class="h4">
+        Let's try to include an image into the webpage.
+      </p>
+    </div>
+    <div class="col-6 p-4">
+      <img src="https://images.techhive.com/images/article/2017/05/storm-clouds-dark-100722099-large.jpg" class="rounded float-center" alt="man looking at clouds" height="200">
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid p-0">
+  <div class="row bg-warning p-0">
+    <div class="col">
+      <h3 class="text-center">Audios</h3>
+    </div>
+  </div>
+  <div class="row bg-warning p-0">
+    <div class="col-6 p-4">
+      <p class="h4">
+        Let's try to include an audio into the webpage.
+      </p>
+    </div>
+    <div class="col-6 p-4">
+      <audio controls>
+        <source src="https://sample-videos.com/audio/mp3/crowd-cheering.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid p-0">
+  <div class="row bg-info p-0">
+    <div class="col">
+      <h3 class="text-center">Tables</h3>
+    </div>
+  </div>
+  <div class="row bg-info p-0">
+    <div class="col-4 p-4">
+      <p class="h4">
+        Let's draw a simple table
+      </p>
+    </div>
+    <div class="col-8 p-4">
+      <table class="table table-dark">
+        <thead>
+          <tr>
+            <th scope="col">Person</th>
+            <th scope="col">Favorite Movie</th>
+            <th scope="col">Favorite Song</th>
+            <th scope="col">Favorite Book</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Hellen</th>
+            <td>Forrest Gump</td>
+            <td>In the End</td>
+            <td>The Little Minister</td>
+          </tr>
+          <tr>
+            <th scope="row">Max</th>
+            <td>Matrix</td>
+            <td>Bring Me To Life</td>
+            <td>Don Quixote</td>
+          </tr>
+          <tr>
+            <th scope="row">Maryam</th>
+            <td>Gladiator</td>
+            <td>Seven Years Old</td>
+            <td>Man's Search For Meaning</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid p-0">
+
+  <div class="row bg-danger p-0">
+    <div class="col">
+      <h3 class="text-center">Forms</h3>
+    </div>
+  </div>
+
+  <div class="row bg-danger px-0 py-4">
+
+    <div class="col-4 p-4">
+      <p class="h4">
+        Let's make a simple block of forms
+      </p>
+    </div>
+
+    <div class="col-8 p-4">
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="FirstNameField">First Name</label>
+            <input type="text" class="form-control" id="FirstNameField" placeholder="First Name">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="LastNameField">Last Name</label>
+            <input type="text" class="form-control" id="LastNameField" placeholder="Last Name">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="EmailField">Email</label>
+          <input type="email" class="form-control" id="EmailField" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="CheckField">
+            <label class="form-check-label" for="CheckField">Subscribe</label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<footer class="bg-primary py-4">
+  <h3 class="text-center">End of Lesson 3</h3>
+</footer>
+
+</body>
+</html>
